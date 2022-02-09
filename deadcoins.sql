@@ -25,10 +25,8 @@ CREATE TABLE IF NOT EXISTS `deadcoins` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- Exportiere Daten aus Tabelle es_extended.esegovic_deadcoins: ~1 rows (ungefähr)
-/*!40000 ALTER TABLE `esegovic_deadcoins` DISABLE KEYS */;
-INSERT IGNORE INTO `esegovic_deadcoins` (`licenca`, `coins`) VALUES
-	('steam:110000118e42907', '5000');
-/*!40000 ALTER TABLE `esegovic_deadcoins` ENABLE KEYS */;
+/*!40000 ALTER TABLE `deadcoins` DISABLE KEYS */;
+/*!40000 ALTER TABLE `deadcoins` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
