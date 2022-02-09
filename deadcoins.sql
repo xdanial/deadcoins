@@ -18,7 +18,7 @@ CREATE DATABASE IF NOT EXISTS `es_extended` /*!40100 DEFAULT CHARACTER SET utf8m
 USE `es_extended`;
 
 -- Exportiere Struktur von Tabelle es_extended.esegovic_deadcoins
-CREATE TABLE IF NOT EXISTS `esegovic_deadcoins` (
+CREATE TABLE IF NOT EXISTS `deadcoins` (
   `licenca` varchar(40) NOT NULL,
   `coins` varchar(40) DEFAULT NULL,
   PRIMARY KEY (`licenca`)
